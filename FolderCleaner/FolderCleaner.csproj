@@ -44,6 +44,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionPerformer.cs" />
+    <Compile Include="Configuration\AppConfigConfigurationReader.cs" />
+    <Compile Include="Configuration\AppConfiguration.cs" />
+    <Compile Include="FileSelector.cs" />
+    <Compile Include="Interfaces\IActionPerformer.cs" />
+    <Compile Include="Interfaces\IConfigurationReader.cs" />
+    <Compile Include="Constants\Actions.cs" />
+    <Compile Include="FileActionFactory.cs" />
+    <Compile Include="FileActions\FileCompressAction.cs" />
+    <Compile Include="FileActions\FileRemoveAction.cs" />
+    <Compile Include="Interfaces\IFileActionFactory.cs" />
+    <Compile Include="Interfaces\IFileAction.cs" />
+    <Compile Include="Interfaces\IFileSelector.cs" />
+    <Compile Include="IoC\ContainerPreparer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
